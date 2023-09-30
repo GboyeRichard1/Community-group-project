@@ -7,9 +7,11 @@
 body{
     display:flex;
     height: 100vh;
-    background-color: white;
+    background-color: aqua;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .nftcontainer{
@@ -42,7 +44,7 @@ body{
 }
 
 .gath{
-    color: rgb(243, 9, 48);
+    color: rgb(247, 94, 120);
     font-family: 'Times New Roman', Times, serif;
     font-size: 36px;
     font-style: normal;
@@ -156,8 +158,15 @@ button{
    
 }
 .learnmore{
-  margin-top: 15px;
-}
+    margin-top: 15px;
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    }
 .arrow2{
     margin-top: 7px;
     margin-left: -18px;
@@ -166,4 +175,53 @@ button{
 .activities{
     display: flex;
     margin-top: 100px;
+    gap: 30px;
+}
+
+.firstactivity{
+    display: flex;
+    flex-direction: row;
+    color: var(--White, #FFF);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    gap: 10px;
+
+}
+.secondactivity{
+    display: flex;
+    flex-direction: row;
+    color: var(--White, #FFF);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    gap: 10px;
+
+
+}
+.thirdactivity{
+    display: flex;
+    flex-direction: row;
+    color: var(--White, #FFF);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    gap: 10px;
+
+}
+
+.community{
+margin-top: 6px;
+}
+.events{
+margin-top: 6px;
+}
+.information{
+margin-top: 6px;
 }
