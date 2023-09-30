@@ -6,7 +6,7 @@
 
 body{
     display:flex;
-    height: 100vh;
+    height: 110vh;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -24,20 +24,17 @@ body{
     background: var(--Black, #2B2D38);
 }
 
-
 .navarea{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    
 }
 .navright{
     display: flex;
     margin-left: -100px;
     gap: 40px;
-    
-    
 }
+
 .gath{
     color: rgb(243, 9, 48);
     font-family: 'Times New Roman', Times, serif;
@@ -45,7 +42,6 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
 }
 .session{
     color: var(--White, #FFF);
@@ -59,7 +55,7 @@ body{
 .home{
     color: var(--White, #FFF);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;  
@@ -72,7 +68,7 @@ body{
 .features{
     color: var(--Gray, #ABABAB);
     font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -80,7 +76,7 @@ body{
 .blog{
     color: var(--Gray, #ABABAB);
     font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -88,7 +84,7 @@ body{
 .contact{
     color: var(--Gray, #ABABAB);
     font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -96,37 +92,49 @@ body{
  .aboutus{
     color: var(--Gray, #ABABAB);
     font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-
 .headingandimage{
     display: flex;
-
+    margin-top: 80px;
+   
 }
+  .dash{
+    width: 25px;
+    height: 3px;
+  }
 
 .paragraph{
-    color: var(--White, #FFF)
-    font-family: Poppins;
-    font-size: 24px;
+    color: var(--Gray, #ABABAB);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px; 
+    line-height: 30px; 
+    margin-top: 20px;
 }
 
     .peoplesimages{
-    width: 600px;
-    height: 560px;
+    width: 620px;
+    height: 590px;
+    margin-top: -20px;
+    margin-right: -100px;
+  
 }
 
 .bigheading{
     color: var(--White, #FFF);
-    font-family: Merriweather;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.communityimage{
+ display: flex;
 }
