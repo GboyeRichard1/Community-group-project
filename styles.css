@@ -57,7 +57,16 @@ body{
 }
 
 .home{
-    
+    color: var(--White, #FFF);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+
+.navleft{
+   margin-top: -10px; 
 }
 
 .features{
@@ -93,3 +102,22 @@ body{
     line-height: normal;
 }
 
+
+.headingandimage{
+    display: flex;
+
+}
+
+    .peoplesimages{
+    width: 600px;
+    height: 560px;
+}
+
+.bigheading{
+    color: var(--White, #FFF);
+    font-family: Merriweather;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
