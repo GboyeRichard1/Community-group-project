@@ -36,6 +36,7 @@ body{
     margin-left: -100px;
     gap: 40px;
     
+    
 }
 .gath{
     color: rgb(243, 9, 48);
@@ -52,6 +53,43 @@ body{
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
+}
+
+.home{
+    
+}
+
+.features{
+    color: var(--Gray, #ABABAB);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.blog{
+    color: var(--Gray, #ABABAB);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.contact{
+    color: var(--Gray, #ABABAB);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+ .aboutus{
+    color: var(--Gray, #ABABAB);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
 
